@@ -12,7 +12,6 @@ function App() {
       ...usuarios,
       usuario,
     ])
-    reset()
   }
 
   return (

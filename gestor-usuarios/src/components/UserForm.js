@@ -8,7 +8,7 @@ const UserForm = ({ submit }) => {
         email: '',
         lastname: '', 
     })
-    const handleSubmit = () => {
+    const handleSubmit = (e) => {
         e.preventDefault()
         submit(formulario)
         reset()
